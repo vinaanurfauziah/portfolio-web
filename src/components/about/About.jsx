@@ -17,9 +17,13 @@ const About = () => {
           <Info />
 
           <p className='about__description'>
-            Frontend developer, I create pages with UI / UX user interface, I
-            have years of experience and many clients are happy with the
-            projects carried out.
+            I’m a budding Frontend Developer with a solid foundation in creating
+            intuitive and responsive UIs. My journey started in high school with
+            Software Engineering and continues as I pursue a degree in
+            Informatics Engineering, now in my 7th semester. I’ve also completed
+            a 5-month independent study at Dicoding, gaining hands-on experience
+            in modern frontend technologies. I’m eager to bring my skills and
+            creativity to real-world projects.
           </p>
 
           <a download='' href={CV} className='button button--flex'>

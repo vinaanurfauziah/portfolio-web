@@ -8,11 +8,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_7zx86aq', 'template_o5i8u4f', form.current, {
-        publicKey: 'gV-vxLnTEPuUmsG0T',
-      })
-      e.target.reset()
+    emailjs.sendForm('service_7zx86aq', 'template_o5i8u4f', form.current, {
+      publicKey: 'gV-vxLnTEPuUmsG0T',
+    });
+    e.target.reset();
   };
   return (
     <section className='contact section' id='contact'>
@@ -28,12 +27,14 @@ const Contact = () => {
               <i className='bx bx-mail-send contact__card-icon'></i>
 
               <h3 className='contact__card-title'>Email</h3>
-              <span className='contact__card-data'>user@gmail.com</span>
+              <span className='contact__card-data'>
+                vinanurfauziahh@gmail.com
+              </span>
 
               <a
-                href='mailto:examplemail@gmail.com.com'
+                href='https://mail.google.com/mail/u/0/?ogbl#inbox'
                 className='contact__button'>
-                Write me{''}{' '}
+                Write me
                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
               </a>
             </div>
@@ -42,15 +43,17 @@ const Contact = () => {
               <i className='bx bxl-whatsapp contact__card-icon'></i>
 
               <h3 className='contact__card-title'>WhatsApp</h3>
-              <span className='contact__card-data'>999-888-777</span>
+              <span className='contact__card-data'>+62 838-3188-9627</span>
 
-              <a href='link whatsapp' className='contact__button'>
+              <a
+                href='https://wa.me/qr/WCFV2QUD6JMIE1'
+                className='contact__button'>
                 Write me{''}{' '}
                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
               </a>
             </div>
 
-            <div className='contact__card'>
+            {/* <div className='contact__card'>
               <i className='bx bxl-messenger contact__card-icon'></i>
 
               <h3 className='contact__card-title'>Messeger</h3>
@@ -60,7 +63,7 @@ const Contact = () => {
                 Write me{''}{' '}
                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
