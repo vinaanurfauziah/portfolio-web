@@ -25,7 +25,7 @@ export const projectsData = [
     image: Quizlogy,
     title: 'Quizlogy',
     category: 'app',
-    demoLink: 'https://github.com/Quizlogi',
+    demoLink: 'https://quizlogy.vercel.app/',
   },
   {
     id: 2,
